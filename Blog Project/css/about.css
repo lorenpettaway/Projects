@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Signika+Negative&display=swap');
+@import url('footer.css');
+@import url('navbar.css');
+@import url('aboutblog.css');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+  max-width: auto;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+
+body {
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  background-image: url("https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29tYW4lMjBtZWRpdGF0aW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: bisque;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #252525;
+  margin-left: 2%;
+}
+
+
+.header-about {
+  font-size: 40px;
+  color: rgb(255, 187, 105);
+  text-shadow: 2px 2px 4px #050404;
+  text-align: center;
+  margin: 25px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  padding: 20px;
+
+}
