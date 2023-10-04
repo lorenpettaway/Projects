@@ -1,0 +1,53 @@
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto auto auto auto);
+    gap: none;
+    margin: 45px;
+    width: auto;
+    max-width: 2400px;
+    justify-content: space-between;
+}
+
+.blog-card {
+    background-color: rgb(215, 123, 48);
+    opacity: 75%;
+    padding: 25px;
+    border-radius: 5px;
+    margin: 20px;
+    color: rgb(91, 6, 4);
+    font-weight: bolder;
+}
+
+.blog-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.blog-card a {
+    color: rgb(72, 5, 5);
+    font-size: 25px;
+}
+
+h3 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+@media screen and (max-width: 480px) {
+    .blog-container {
+        grid-template-columns: none;
+        margin: 5%;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .blog-card {
+        font-size: 15px;
+    }
+}

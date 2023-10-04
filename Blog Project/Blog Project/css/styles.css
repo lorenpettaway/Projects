@@ -1,0 +1,79 @@
+@import url('blog.css');
+@import url('navbar.css');
+@import url('footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Signika+Negative&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+    max-width: auto;
+}
+
+
+body {
+    height: 100%;
+    width: auto;
+    max-width: 2400px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29tYW4lMjBtZWRpdGF0aW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: bisque;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #252525;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: .5fr 3fr .5fr;
+    grid-template-rows: 1.5fr 3fr;
+    color: rgb(255, 187, 105);
+    text-shadow: 2px 2px 4px #050404;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    max-width: 2400px;
+    margin: 30px;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.header-main {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.header-body {
+    grid-area: 2 / 2 / 3 / 3;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .header-body {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1500px) {
+
+    body {
+        background-size: 120% 100%;
+    }
+}
